@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>万能添加 删除</title>
+</head>
+<body>
+	<script src="万能添加.js"></script>
+	<script>
+	/*  添加  */
+		var arr=[1,2,3,4,5];
+    	document.write(spliceAdd(arr,2,'a','b','c'))
+
+    /*  删除  */
+    var arr=[1,2,3,4,5,6,7];
+    console.log(splicecancel(arr,2,1));
+
+    /*  万能添加  删除  */
+    var arr=[1,2,3,4,5,6];
+    var result=splice(arr,2,2,'z','x','c');
+    console.log(result);
+	</script>
+</body>
+</html>
